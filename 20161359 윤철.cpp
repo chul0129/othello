@@ -131,11 +131,7 @@ bool setPossible()
 			}
 		}
 	}  
-	if (turn == Turn::WHITE)
-	{
-		setState(x, y, State::WHITE);
-
-	}
+	
 	return possible;
 }
 int main(void)
